@@ -1,0 +1,4 @@
+${AnsiColor.CYAN}Crud v1.0.0
+${AnsiColor.GREEN}Spring Boot ${spring-boot.version}
+${AnsiColor.BLUE}2018
+${AnsiColor.DEFAULT}

@@ -1,0 +1,18 @@
+server:
+  port: 5500
+  context-path: /crud
+
+spring:
+  application:
+    name: crud
+    profiles: docker
+  datasource:
+    url: jdbc:mysql://localhost:3306/PRUEBA
+    username: root
+    password: secret
+
+  jpa:
+    database-platform: org.hibernate.dialect.DB2400Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
